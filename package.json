@@ -6,7 +6,7 @@
   "scripts": {
     "test": "grunt test"
   },
-  "main": "lib/selenium-standalone.js",
+  "main": "tasks/selenium-standalone.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ascripcaru/selenium-standalone"
