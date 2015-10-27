@@ -12,7 +12,7 @@ var grunt = require('grunt')
  * @param cb
  */
 function start(cb) {
-  seleniumOptions.push('jar/' + jarName);
+  seleniumOptions.push(__dirname + '/../jar/' + jarName);
 
   if (!started) {
     serverProcess = spawn('java', seleniumOptions);
