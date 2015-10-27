@@ -1,14 +1,18 @@
 {
-  "name": "selenium-standalone",
+  "name": "grunt-selenium-standalone",
   "version": "0.1.0",
+  "description": "Selenium standalone stuff",
+  "author": "Andrei Scripcaru <ascripcaru@gmail.com>",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "main": "lib/selenium-standalone.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ascripcaru/selenium-standalone"
+  },
   "devDependencies": {
     "grunt": "~0.4.5"
   },
-  "main": "selenium-standalone.js",
-  "scripts": {
-    "test": "test"
-  },
-  "author": "Andrei Scripcaru",
-  "license": "MIT",
-  "description": ""
+  "license": "MIT"
 }
